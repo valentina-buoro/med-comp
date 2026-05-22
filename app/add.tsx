@@ -19,13 +19,13 @@ export default function AddMedication() {
 
   return (
     <SafeAreaView className="flex-1 bg-white">
-      <Stack.Screen options={{ headerShown: false }} />
+    
 
       <View className="px-6 py-4 flex-row items-center border-b border-gray-100">
         <TouchableOpacity onPress={() => router.back()} className="mr-4">
           <Text className="text-2xl text-gray-600">←</Text>
         </TouchableOpacity>
-        <Text className="text-xl font-bold text-gray-900">Add Medication</Text>
+        <Text className="text-xl font-bold text-gray-900">Adding Medication</Text>
       </View>
 
       <ScrollView className="flex-1 px-6 pt-6" contentContainerStyle={{ paddingBottom: 100 }}>
